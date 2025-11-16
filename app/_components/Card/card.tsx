@@ -1,4 +1,5 @@
 import { ArrowRight, GitHubIcon } from "@/app/_components/Icons";
+import Image from "next/image";
 
 type Projects = {
   id: number,
@@ -17,9 +18,10 @@ export default function CardProject({project}: {project: Projects}) {
       >
         {/* Image */}
         <div className="relative h-56 overflow-hidden bg-neutral-100 dark:bg-neutral-900">
-          <img 
+          <Image 
             src={project.image} 
             alt={project.title}
+            fill
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
           />
         </div>
