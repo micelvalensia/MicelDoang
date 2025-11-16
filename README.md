@@ -19,8 +19,8 @@ Portfolio website for Micel Valensia, built with **Next.js**, **TypeScript**, **
 
 ## Getting Started
 ### 1. Clone the repository
-git clone <repo-url>
-cd <repo-folder>
+git clone repo ini
+cd repo folder
 
 ### 2. Install dependencies
 npm install
